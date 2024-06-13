@@ -1,0 +1,89 @@
+.review-list-container {
+    padding: 20px;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-list-title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.review-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 600px;
+}
+
+.edit-form label {
+    display: block;
+    margin: 10px 0;
+    color: #666;
+}
+
+.edit-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.review-details {
+    text-align: left;
+}
+
+.review-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.review-detail {
+    margin: 5px 0;
+    color: #666;
+}
+
+.review-card-buttons {
+    margin-top: 20px;
+}
+
+.edit-button, .delete-button, .update-button, .cancel-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.update-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.cancel-button {
+    background-color: #6c757d;
+    color: white;
+}
+
+.edit-button:hover, .delete-button:hover, .update-button:hover, .cancel-button:hover {
+    opacity: 0.8;
+}

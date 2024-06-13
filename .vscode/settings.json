@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "name": "test",
+            "server": "127.0.0.1",
+            "port": 3305,
+            "database": "moviereviewdb",
+            "username": "root",
+            "password": "password12345",
+            "connectionTimeout": 50
+        }
+    ]
+}
